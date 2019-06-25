@@ -1,18 +1,65 @@
-<h3>Top Heroes</h3>
-<div class="grid grid-pad">
-  <a *ngFor="let hero of heroes" class="col-1-4"
-      routerLink="/detail/{{hero.id}}">
-    <div class="module hero">
-      <h4>{{hero.name}}</h4>
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="header container-fluid">
+  <div class="row">
+    <div class="col-sm-4 header-logo">
+      <img class="header-logo-img" src="/GOL.png" />
     </div>
-  </a>
+    <div class="col-sm-7 header-login">
+      <span class="btn">Sign in</span>
+      <span class="btn-get-started">GET STARTED</span>
+    </div>
+  </div>
 </div>
-
-<app-hero-search></app-hero-search>
-
-
-<!-- 
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
--->
+<div class="selection-pane container-fluid">
+  <div class="row">
+    <div class="col-sm-2 selection-pane-img">
+      <img src="/ms.png" />
+      <div class="selection-pane-undertext">
+        <h3>Michael Siebel</h3>
+        <p>A day in life of CEO and partner at YCombinator</p>
+        <p>Living in San-francisco</p>
+      </div>
+    </div>
+    <div class="col-sm-2 selection-pane-img"></div>
+    <div class="col-sm-2 selection-pane-img"></div>
+    <div class="col-sm-2 selection-pane-img"></div>
+    <div class="col-sm-2 selection-pane-img"></div>
+    <div class="col-sm-2 selection-pane-img"></div>
+  </div>
+</div>
+<div class="info-pane container-fluid">
+  <div class="row">
+    <div class="col-lg-5 col-md-12 info-pane-text info-left">
+      <div class="row">
+        <div class="col-sm-4">
+          <img class=" info-img" src="/info-left-img.jpg" />
+        </div>
+        <div class="col-sm-8 info-text">
+          <h1>See Lives</h1>
+          <h2>See the lives of people around the world</h2>
+          <h2>find the life you're meant to live</h2>
+          <h2>and a path to get there</h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-2"></div>
+    <div class="col-md-12 col-lg-5 info-pane-text info-right">
+      <h1>Share my life</h1>
+    </div>
+  </div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"
+></script>
