@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {SelectDropDownModule} from 'ngx-select-dropdown';
 import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 
@@ -38,10 +38,3 @@ export class HeroesComponent implements OnInit {
   }
 
 }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
