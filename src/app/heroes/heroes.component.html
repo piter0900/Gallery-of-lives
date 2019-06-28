@@ -4,8 +4,9 @@
   </div>
 </div>
 <div class="container-fluid search-bar-container">
-  <div class="row">
-   
+  <div class="row search-bar mx-aut">
+   <ngx-select-dropdown [config]="config" [options]="dropdownOptions" 
+            [(ngModel)]="dataModel" [multiple]="true" ></ngx-select-dropdown>
   </div>
 </div>
 <div class="container-fluid gallery-container">
