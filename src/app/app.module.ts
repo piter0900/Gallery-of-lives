@@ -13,6 +13,7 @@ import { DashboardComponent }   from './dashboard/dashboard.component';
 import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
 import { HeroesComponent }      from './heroes/heroes.component';
 import { MessagesComponent }    from './messages/messages.component';
+import { ShareLifeComponent } from './share-life/share-life.component';
 
 @NgModule({
   imports: [
@@ -33,7 +34,8 @@ import { MessagesComponent }    from './messages/messages.component';
     DashboardComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    ShareLifeComponent
   ],
   bootstrap: [ AppComponent ]
 })
