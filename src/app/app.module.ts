@@ -14,6 +14,7 @@ import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
 import { HeroesComponent }      from './heroes/heroes.component';
 import { MessagesComponent }    from './messages/messages.component';
 import { ShareLifeComponent } from './share-life/share-life.component';
+import { VidRecordingComponent } from './vid-recording/vid-recording.component';
 
 @NgModule({
   imports: [
@@ -35,7 +36,8 @@ import { ShareLifeComponent } from './share-life/share-life.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    ShareLifeComponent
+    ShareLifeComponent,
+    VidRecordingComponent
   ],
   bootstrap: [ AppComponent ]
 })

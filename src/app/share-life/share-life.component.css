@@ -1,0 +1,29 @@
+.top-text-h2{
+  margin-top:20px; 
+}
+.how-to-container{
+  width:1180px; 
+  margin-top: 2vh; 
+}
+.gient-number{
+  font-size:8vh;
+}
+
+.gient-number-container{
+  text-align:center; 
+}
+
+.how-to-row{
+  padding:10px 0; 
+  margin-bottom: 20px; 
+  background-color: #f0f0f0;
+}
+
+.btn-get-started{
+  font-size:25px;
+  cursor: pointer; 
+}
+.get-started-row{
+  margin-top:50px; 
+  text-align:center; 
+}
