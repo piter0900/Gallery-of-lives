@@ -1,0 +1,12 @@
+.menu-left{
+  border-right: 1px solid #e0e0e0; 
+  height:calc(100vh - 60px); 
+}  
+
+.question-list{
+  list-style: none; 
+}
+
+.recording-right h1,h2{
+  text-align:center;
+}
