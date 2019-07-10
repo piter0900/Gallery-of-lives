@@ -12,5 +12,5 @@ export class VidRecordingComponent implements OnInit {
   ngOnInit() {
     
   }
-  top_line = ["Day in the life","The good,the bad and the ugly","My journey, my learnings","Anyone can become"]; 
+  top_line = ["Week in the life","The good,the bad and the ugly","My journey, my learnings","Anyone can become"]; 
 }
