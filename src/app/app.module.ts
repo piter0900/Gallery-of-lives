@@ -17,6 +17,7 @@ import { MessagesComponent }    from './messages/messages.component';
 import { ShareLifeComponent } from './share-life/share-life.component';
 import { VidRecordingComponent } from './vid-recording/vid-recording.component';
 import { CameraComponent } from './camera/camera.component';
+import { RecordComponent } from './record/record.component';
 
 @NgModule({
   imports: [
@@ -41,7 +42,8 @@ import { CameraComponent } from './camera/camera.component';
     MessagesComponent,
     ShareLifeComponent,
     VidRecordingComponent,
-    CameraComponent
+    CameraComponent,
+    RecordComponent
   ],
   bootstrap: [ AppComponent ]
 })
