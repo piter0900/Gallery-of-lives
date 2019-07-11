@@ -5,13 +5,9 @@ import {
   ElementRef,
   Input
 } from '@angular/core';
-import videojs from 'video.js';
-import * as adapter from 'webrtc-adapter/out/adapter_no_global.js';
+
 import * as RecordRTC from 'recordrtc';
-
-// register videojs-record plugin with this import
-import * as Record from 'videojs-record/dist/videojs.record.js';
-
+import videojs from 'video.js';
 @Component({
   selector: 'app-camera',
   templateUrl: './camera.component.html',
